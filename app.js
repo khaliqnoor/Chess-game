@@ -40,7 +40,6 @@ io.on("connection", function (uniquesocket) {
         delete players.black
     }
  });
-//  now this is for the movement of the chess characters
 
 uniquesocket.on("move", (move)=>{
     try{
