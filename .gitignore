@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+
+# Cache
+.cache/
+tmp/
+temp/
+
+# Editor junk
+.vscode/
+.idea/
+
+# Ignore deployment yaml files
+*.yaml
+frontendSetup.yaml
+backendSetup.yaml
+
+# Ignore personal notes
+notes.txt
+
+# Ignore lockfiles if you want (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
