@@ -10,8 +10,8 @@
             display: grid;
             grid-template-columns: repeat(8, minmax(0, 1fr));
             grid-template-rows: repeat(8, minmax(0, 1fr));
-            width: 400px;
-            height: 400px;
+            width: 550px;
+            height: 550px;
             transform: rotate(0deg);
          font-family: "Segoe UI Symbol", "Noto Sans Symbols", sans-serif;
         }
@@ -56,7 +56,7 @@
             opacity: 0.5;
         }
 
-        /* Rotate pieces for black player */
+       
         .flipped .piece {
             transform: rotate(180deg);
         }
@@ -64,7 +64,7 @@
 </head>
 <body>
 
-<div class="w-full h-screen flex items-center justify-center bg-zinc-900">
+<div class="w-full h-screen flex items-center justify-center bg-[#050816] bg-[url(/herobg.png)] bg-cover no-repeat ">
     <div class="chessboard w-96 h-96"></div>
 </div>
     <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" integrity="sha384-mkQ3/7FUtcGyoppY6bz/PORYoGqOl7/aSUMn2ymDOJcapfS6PHqxhRTMh1RR0Q6+" crossorigin="anonymous"></script>
